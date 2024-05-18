@@ -1,8 +1,10 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import BannerBackground from "../Assets/home-banner-background2.png";
 import MaidImage from "../Assets/maid-image1.jpg";
 import Navbar from "./Navbar";
 import { FiArrowRight } from "react-icons/fi";
+
 
 const Home = () => {
   return (
@@ -19,9 +21,9 @@ const Home = () => {
           <p className="primary-text">
             Our experienced and reliable maids take care of all your household chores, giving you more time to relax and enjoy your home.
           </p>
-          <button className="secondary-button">
+          <Link to="/login" className="secondary-button">
             Book Now <FiArrowRight />
-          </button>
+          </Link>
         </div>
         <div className="home-image-section">
           <img src={MaidImage} alt="Maid" />
