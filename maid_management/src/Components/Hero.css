@@ -1,0 +1,61 @@
+/* HeroPage.css */
+.hero-container {
+    background: linear-gradient(45deg, whitesmoke, #ffdab9);
+    padding: 20px;
+  }
+  
+  .navbar {
+    background: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+  }
+  
+  .navbar ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .navbar ul li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  .navbar ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .hero {
+    text-align: center;
+  }
+  
+  .zigzag-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .zigzag-item {
+    width: 30%;
+    margin: 20px;
+    text-align: center;
+  }
+  
+  .zigzag-item img {
+    width: 100%;
+    border-radius: 8px;
+  }
+  
+  .footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  .social-links a {
+    color: white;
+    margin: 0 10px;
+  }
+  
